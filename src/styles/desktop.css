@@ -50,6 +50,59 @@ nav a{
     background-color: var(--green-60);
     border-radius: 82px;
     border: 0px none transparent;
+    color: var(--grey-11);
+    font-family: "Lexend", sans-serif;
+}
+
+main{
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+
+}
+
+.main-description{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-description h1{
+    width: 825px;
+}
+
+
+.title-white{
     color: var(--absolute-white);
+    font-size: 48px;
+    font-family: "Lexend", sans-serif;
+}
+
+.title-green{
+    color: var(--green-60);
+    font-size: 48px;
+    font-family: "Lexend", sans-serif;
+}
+
+.main-description p{
+    font-size: 18px;
+    font-family: "Lexend",sans-serif;
+    color: var(--white-90);
+    width: 825px;
+}
+
+.but-open{
+    width: 183px;
+    height: 55px;
+
+    background-color: var(--green-60);
+    border-radius: 82px;
+    border: 0px none transparent;
+    color: var(--grey-11);
     font-family: "Lexend", sans-serif;
 }
