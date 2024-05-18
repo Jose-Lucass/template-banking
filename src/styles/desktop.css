@@ -1,0 +1,55 @@
+@import url("./root.css");
+body{
+    background-color: var(--absolute-black);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 1596px;
+    height: auto;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo :last-child{
+    color: var(--absolute-white);
+    font-family: "Lexend", sans-serif;
+}
+
+nav{
+    display: flex;
+    gap: 26px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--absolute-white);
+    font-family: "Lexend", sans-serif;
+
+}
+
+.cadastro{
+    width: 69px;
+
+    background-color: transparent;
+    border: 0px none transparent;
+    color: var(--absolute-white);
+    font-family: "Lexend", sans-serif;
+}
+
+.login{
+    width: 109px;
+    height: 55px;
+
+    background-color: var(--green-60);
+    border-radius: 82px;
+    border: 0px none transparent;
+    color: var(--absolute-white);
+    font-family: "Lexend", sans-serif;
+}
