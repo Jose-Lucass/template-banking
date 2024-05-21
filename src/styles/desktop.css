@@ -62,8 +62,14 @@ main{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 120px;
 
+}
+
+.main-container{
+    display: flex;
+    gap: 120px;
 }
 
 .main-description{
@@ -73,7 +79,7 @@ main{
 }
 
 .main-description h1{
-    width: 825px;
+    width: 800px;
 }
 
 
@@ -90,10 +96,10 @@ main{
 }
 
 .main-description p{
-    font-size: 18px;
+    font-size: 12px;
     font-family: "Lexend",sans-serif;
     color: var(--white-90);
-    width: 825px;
+    width: 500px;
 }
 
 .but-open{
@@ -105,4 +111,143 @@ main{
     border: 0px none transparent;
     color: var(--grey-11);
     font-family: "Lexend", sans-serif;
+}
+
+.figure{
+    width: 188px;
+    height: 75px;
+    border-radius: 15px 15px;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-10);
+}
+.figure img{
+    width: 38px;
+}
+
+.figure-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+    color: var(--absolute-white);
+    font-family: "Lexend", sans-serif;
+    font-size: 10px; 
+}
+
+
+.transitions{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-container-transition{
+    display: flex;
+}
+
+.transitions>h4{
+    color: var(--absolute-white);
+    font-size: 17px;
+    font-family: "Lexend",sans-serif;
+}
+
+.figure-transition{
+    width: 445px;
+    height: 76px;
+    border-radius: 15px 15px;
+    gap: 120px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey-10);
+}
+
+.transaction-number{
+    color: var(--absolute-white);
+    font-family: "Lexend", sans-serif;
+    font-size: 30px;
+
+    display: flex;
+    align-self: flex-end;
+}
+
+
+.exchanges{
+    display: flex;
+    flex-direction: column;
+    
+}
+.exchanges>h4{
+    color: var(--absolute-white);
+    font-size: 17px;
+    font-family: "Lexend",sans-serif;
+}
+
+.container-countries{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.india{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    align-items: flex-start;
+}
+.bandeira-description{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.bandeira-description>p{
+    font-size: 10px;
+    font-family: "Lexend", sans-serif;
+    color: var(--white-90);
+}
+
+.bandeira{
+    display: flex;
+    gap: 5px;
+}
+
+.bandeira>h1{
+    font-size: 15px;
+    font-family: "Lexend",sans-serif;
+    color: var(--absolute-white);
+}
+
+.india>h2{
+    color: var(--absolute-white);
+    font-size: 17px;
+    font-family: "Lexend",sans-serif;
+}
+
+.USA{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    align-items: flex-start;
+}
+.USA>h2{
+    color: var(--absolute-white);
+    font-size: 17px;
+    font-family: "Lexend",sans-serif;
+}
+
+.button-exchanges{
+    width: 445px;
+    height: 50px;
+    border-radius: 71px;
+    border: none;
+    
+    background-color: #22251B;
+    color: var(--green-65);
+
+
 }
