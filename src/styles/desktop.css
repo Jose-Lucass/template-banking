@@ -57,12 +57,14 @@ nav a{
 main{
     width: auto;
     height: auto;
-
+    margin-top: 40px;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     justify-content: center;
+
     gap: 120px;
 
 }
@@ -248,6 +250,37 @@ main{
     
     background-color: #22251B;
     color: var(--green-65);
-
-
+    font-family: "Lexends", sans-serif;
 }
+
+.container-support{
+    width: 370px;
+    height: 70px;
+    border-radius: 70px;
+    background-color: #22251B;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-support>p{
+    font-size: 15px;
+    font-family: "Lexend", sans-serif;
+    color: var(--absolute-white);
+}
+
+.sub-container-support{
+    background-color: var(--grey-10);
+    width: 176px;
+    height: 52px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
